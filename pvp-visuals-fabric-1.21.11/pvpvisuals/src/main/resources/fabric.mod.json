@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpvisuals",
+  "version": "${version}",
+  "name": "PvP Visuals",
+  "description": "Client-side visual PvP HUD: combo counter, CPS, target health display and hit particles. Visual only, no gameplay advantage.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.pvpvisuals.PvpVisualsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
